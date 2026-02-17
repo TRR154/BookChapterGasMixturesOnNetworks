@@ -60,7 +60,11 @@ Contains several subfolders, each named after a section of the chapter. In the f
 
             **Warning:** each of these takes approximately **two days** to run on a machine with the same parameters as above.
 
-        - Computing the norms required for the convergence study. 
+        - Computing the norms required for the convergence study.
+        - In the case of the experiments for the 2v case, the following files are compressed as `.zip` archives in order to comply with GitHub maximum file size requirements, and **must be uncompressed before runnning the 2v scripts for this section**:
+          
+          - `save_solution/solutions/network_2v_f_1_timedep/compstudy/` (all files)
+          - `save_solution/solutions/network_2v_f_1_timedep/massflowinflow/2v_gaslib40_removed_edit_dx_87.79149519890261_dt_42.10526315789474_T_14400_SCENARIO_time_dep_pressure_speed_of_sound_algebraic_1.0.zip`
     
 
 - **`output` folders:** These folders **pre-made copies** of the output of each script, i.e. the results presented in each section. In most cases this is organised into the following subfolders:
