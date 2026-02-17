@@ -67,7 +67,7 @@ Contains several subfolders, each named after a section of the chapter. In the f
           - `save_solution/solutions/network_2v_f_1_timedep/massflowinflow/2v_gaslib40_removed_edit_dx_87.79149519890261_dt_42.10526315789474_T_14400_SCENARIO_time_dep_pressure_speed_of_sound_algebraic_1.0.zip`
     
 
-- **`output` folders:** These folders **pre-made copies** of the output of each script, i.e. the results presented in each section. In most cases this is organised into the following subfolders:
+- **`output` folders:** These folders contain **pre-made copies** of the output of each script, i.e. the results presented in each section. In most cases this is organised into the following subfolders:
     - `solutions`: These contain numerical solutions stored as arrays in the Pickle format. Extension: `.pkl`.
     - `plots`: These contain copies of the plots which are presented in each section. 
 
