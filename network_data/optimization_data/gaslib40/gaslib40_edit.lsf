@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<solution network="ADM" nomination="2" objective="maximize sum of pressures" value="2613.140181" status="optimal" pressureLossModel="algebraic" cs-model="idealized" noCircularFlowConstraints="use cycle basis" SCIP-version="9.1.0" mode="optimized" LP-solver="Soplex 7.1.0" date="24.7.2025">
+	<nodes>
+		<sources>
+			<source id="source_1">
+				<pressure unit="bar" value="74.890515818004289"></pressure>
+				<pressureSquare unit="bar_square" value="5608.589359486744797"></pressureSquare>
+				<flow unit="kg_per_s" value="158.090277777777771"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</source>
+			<source id="source_2">
+				<pressure unit="bar" value="75.436966727781154"></pressure>
+				<flow unit="kg_per_s" value="158.090277777777771"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</source>
+			<source id="source_3">
+				<pressure unit="bar" value="81.013249999999999"></pressure>
+				<flow unit="kg_per_s" value="158.090277777777771"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297730"></mixingratio>
+			</source>
+		</sources>
+		<sinks>
+			<sink id="sink_1">
+				<pressure unit="bar" value="51.611651255098877"></pressure>
+				<pressureSquare unit="bar_square" value="2663.762545196509564"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_2">
+				<pressure unit="bar" value="72.153531867969633"></pressure>
+				<pressureSquare unit="bar_square" value="5206.132161022109358"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</sink>
+			<sink id="sink_3">
+				<pressure unit="bar" value="74.539512469556357"></pressure>
+				<pressureSquare unit="bar_square" value="5556.138919199152951"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</sink>
+			<sink id="sink_4">
+				<pressure unit="bar" value="59.580770772083319"></pressure>
+				<pressureSquare unit="bar_square" value="3549.868245734428001"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_5">
+				<pressure unit="bar" value="57.215426664651275"></pressure>
+				<pressureSquare unit="bar_square" value="3273.605048351820187"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917639"></mixingratio>
+			</sink>
+			<sink id="sink_6">
+				<pressure unit="bar" value="52.035841450070592"></pressure>
+				<pressureSquare unit="bar_square" value="2707.728795336768144"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_7">
+				<pressure unit="bar" value="51.963477825336412"></pressure>
+				<pressureSquare unit="bar_square" value="2700.203027623888374"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_8">
+				<pressure unit="bar" value="59.147558385469857"></pressure>
+				<pressureSquare unit="bar_square" value="3498.433662900557920"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_9">
+				<pressure unit="bar" value="55.581215045595016"></pressure>
+				<pressureSquare unit="bar_square" value="3089.271465874456680"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_10">
+				<pressure unit="bar" value="75.896723074201418"></pressure>
+				<pressureSquare unit="bar_square" value="5760.312572581832683"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297731"></mixingratio>
+			</sink>
+			<sink id="sink_11">
+				<pressure unit="bar" value="75.831303033242875"></pressure>
+				<pressureSquare unit="bar_square" value="5750.386518897898895"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297731"></mixingratio>
+			</sink>
+			<sink id="sink_12">
+				<pressure unit="bar" value="15.738933367194774"></pressure>
+				<pressureSquare unit="bar_square" value="247.714022660411956"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_13">
+				<pressure unit="bar" value="72.085489634155294"></pressure>
+				<pressureSquare unit="bar_square" value="5196.317814886040651"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297731"></mixingratio>
+			</sink>
+			<sink id="sink_14">
+				<pressure unit="bar" value="72.174724460198860"></pressure>
+				<pressureSquare unit="bar_square" value="5209.190849998022713"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297731"></mixingratio>
+			</sink>
+			<sink id="sink_15">
+				<pressure unit="bar" value="72.121427646063410"></pressure>
+				<pressureSquare unit="bar_square" value="5201.500325706358126"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</sink>
+			<sink id="sink_16">
+				<pressure unit="bar" value="75.610597452270056"></pressure>
+				<pressureSquare unit="bar_square" value="5716.962447084683845"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297731"></mixingratio>
+			</sink>
+			<sink id="sink_17">
+				<pressure unit="bar" value="58.967038776004685"></pressure>
+				<pressureSquare unit="bar_square" value="3477.111661948451911"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917639"></mixingratio>
+			</sink>
+			<sink id="sink_18">
+				<pressure unit="bar" value="53.237305739342830"></pressure>
+				<pressureSquare unit="bar_square" value="2834.210722307723699"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_19">
+				<pressure unit="bar" value="78.650462556629918"></pressure>
+				<pressureSquare unit="bar_square" value="6185.895260371843506"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297731"></mixingratio>
+			</sink>
+			<sink id="sink_20">
+				<pressure unit="bar" value="60.032702067379759"></pressure>
+				<pressureSquare unit="bar_square" value="3603.925317450589318"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_21">
+				<pressure unit="bar" value="18.145065953103533"></pressure>
+				<pressureSquare unit="bar_square" value="329.243417783129189"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_22">
+				<pressure unit="bar" value="51.755821802177280"></pressure>
+				<pressureSquare unit="bar_square" value="2678.665090337742640"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_23">
+				<pressure unit="bar" value="74.528166592131598"></pressure>
+				<pressureSquare unit="bar_square" value="5554.447615584514097"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</sink>
+			<sink id="sink_24">
+				<pressure unit="bar" value="18.422596992152869"></pressure>
+				<pressureSquare unit="bar_square" value="339.392079295663279"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_25">
+				<pressure unit="bar" value="71.939856873948102"></pressure>
+				<pressureSquare unit="bar_square" value="5175.343007044144542"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_26">
+				<pressure unit="bar" value="60.638456639797553"></pressure>
+				<pressureSquare unit="bar_square" value="3677.022423597612942"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.943502977917640"></mixingratio>
+			</sink>
+			<sink id="sink_27">
+				<pressure unit="bar" value="80.112310381430461"></pressure>
+				<pressureSquare unit="bar_square" value="6417.982274201481232"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.676153417297730"></mixingratio>
+			</sink>
+			<sink id="sink_28">
+				<pressure unit="bar" value="72.581126159371593"></pressure>
+				<pressureSquare unit="bar_square" value="5268.019874562614859"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</sink>
+			<sink id="sink_29">
+				<pressure unit="bar" value="72.602009582583378"></pressure>
+				<pressureSquare unit="bar_square" value="5271.051795429526464"></pressureSquare>
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<mixingratio unit="mass-percent" value="0.996972890041621"></mixingratio>
+			</sink>
+		</sinks>
+		<innodes>
+			<innode id="innode_3">
+				<pressure unit="bar" value="78.542351942568871"></pressure>
+				<pressureSquare unit="bar_square" value="6168.901048669245029"></pressureSquare>
+				<mixingratio unit="mass-percent" value="0.676153417297731"></mixingratio>
+			</innode>
+			<innode id="innode_5">
+				<pressure unit="bar" value="80.944640093178009"></pressure>
+				<pressureSquare unit="bar_square" value="6552.034759808353556"></pressureSquare>
+				<mixingratio unit="mass-percent" value="0.676153417297730"></mixingratio>
+			</innode>
+		</innodes>
+	</nodes>
+	<connections>
+		<pipes>
+			<pipe id="pipe_1" from="source_1" to="sink_3">
+				<flow unit="kg_per_s" value="158.090277777777715"></flow>
+				<pressureDifference unit="bar" value="0.351003348447932"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.002098644184572"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_2" from="sink_11" to="sink_16">
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<pressureDifference unit="bar" value="0.220705580972819"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.124969067062608"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_3" from="sink_13" to="sink_25">
+				<flow unit="kg_per_s" value="43.61111111111096"></flow>
+				<pressureDifference unit="bar" value="-0.145632760207192"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.011028176494890"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_4" from="sink_14" to="sink_13">
+				<flow unit="kg_per_s" value="59.96527777777763"></flow>
+				<pressureDifference unit="bar" value="-0.089234826043565"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.003579985398452"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_5" from="sink_10" to="sink_14">
+				<flow unit="kg_per_s" value="76.3194444444443"></flow>
+				<pressureDifference unit="bar" value="-3.721998614002558"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.094618733048722"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_6" from="sink_25" to="sink_26">
+				<flow unit="kg_per_s" value="157.591583763551768"></flow>
+				<pressureDifference unit="bar" value="11.301400234150549"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.060330747396012"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_7" from="sink_26" to="sink_9">
+				<flow unit="kg_per_s" value="107.068794331059777"></flow>
+				<pressureDifference unit="bar" value="5.057241594202537"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.051270496244736"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_8" from="sink_9" to="sink_18">
+				<flow unit="kg_per_s" value="90.714627664393106"></flow>
+				<pressureDifference unit="bar" value="2.343909306252186"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.030994809876223"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_9" from="sink_26" to="sink_4">
+				<flow unit="kg_per_s" value="34.168622765825425"></flow>
+				<pressureDifference unit="bar" value="1.057685867714234"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.108911988177444"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_10" from="sink_20" to="sink_4">
+				<flow unit="kg_per_s" value="29.328544771537953"></flow>
+				<pressureDifference unit="bar" value="-0.451931295296440"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.062845109449421"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_11" from="sink_18" to="sink_6">
+				<flow unit="kg_per_s" value="74.360460997726435"></flow>
+				<pressureDifference unit="bar" value="1.201464289272238"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.022874116384187"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_12" from="sink_3" to="sink_25">
+				<flow unit="kg_per_s" value="125.38194444444434"></flow>
+				<pressureDifference unit="bar" value="-2.599655595608255"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.024222684658668"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_13" from="sink_6" to="sink_7">
+				<flow unit="kg_per_s" value="25.297960997726278"></flow>
+				<pressureDifference unit="bar" value="0.072363624734180"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.011759254022969"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_14" from="sink_6" to="sink_22">
+				<flow unit="kg_per_s" value="32.708333333333485"></flow>
+				<pressureDifference unit="bar" value="0.280019647893312"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.027166528588484"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_15" from="sink_7" to="sink_24">
+				<flow unit="kg_per_s" value="49.062500000000156"></flow>
+				<pressureDifference unit="bar" value="33.540880833183543"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.980758006851429"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_16" from="sink_22" to="sink_1">
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<pressureDifference unit="bar" value="0.144170547078403"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.055719037697921"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_17" from="sink_24" to="sink_21">
+				<flow unit="kg_per_s" value="32.708333333333485"></flow>
+				<pressureDifference unit="bar" value="0.277531039049336"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.009486192593971"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_18" from="sink_21" to="sink_12">
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<pressureDifference unit="bar" value="2.406132585908759"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.304829772181818"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_19" from="sink_5" to="sink_7">
+				<flow unit="kg_per_s" value="40.11870566894055"></flow>
+				<pressureDifference unit="bar" value="-5.251948839314863"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917639"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.356258629475374"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_20" from="sink_17" to="sink_5">
+				<flow unit="kg_per_s" value="56.47287233560722"></flow>
+				<pressureDifference unit="bar" value="-1.751612111353410"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917639"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.063811473409564"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_21" from="sink_4" to="sink_17">
+				<flow unit="kg_per_s" value="47.143000870696795"></flow>
+				<pressureDifference unit="bar" value="-0.613731996078634"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.032736922565865"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_22" from="sink_8" to="sink_17">
+				<flow unit="kg_per_s" value="25.684038131576994"></flow>
+				<pressureDifference unit="bar" value="-0.180519609465172"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.032322232237306"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_23" from="sink_3" to="sink_23">
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<pressureDifference unit="bar" value="0.011345877424759"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.006323605060047"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_24" from="sink_20" to="sink_8">
+				<flow unit="kg_per_s" value="42.03820479824366"></flow>
+				<pressureDifference unit="bar" value="-0.885143681909902"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.059693876219206"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_25" from="sink_25" to="sink_20">
+				<flow unit="kg_per_s" value="87.720916236448176"></flow>
+				<pressureDifference unit="bar" value="11.907154806568343"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.943502977917640"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.204213909379975"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_26" from="sink_15" to="sink_25">
+				<flow unit="kg_per_s" value="92.67361111111131"></flow>
+				<pressureDifference unit="bar" value="-0.181570772115307"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.003045657416450"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_27" from="sink_29" to="sink_15">
+				<flow unit="kg_per_s" value="61.491673553729896"></flow>
+				<pressureDifference unit="bar" value="-0.480581936519968"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.018393894236834"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_28" from="sink_29" to="sink_28">
+				<flow unit="kg_per_s" value="16.354166666666668"></flow>
+				<pressureDifference unit="bar" value="0.020883423211785"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.011336030958440"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_29" from="sink_29" to="sink_2">
+				<flow unit="kg_per_s" value="63.890270890714604"></flow>
+				<pressureDifference unit="bar" value="0.448477714613745"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.015904008737771"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_30" from="sink_2" to="sink_15">
+				<flow unit="kg_per_s" value="47.536104224047932"></flow>
+				<pressureDifference unit="bar" value="0.032104221906224"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.002049773787277"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_31" from="source_2" to="sink_29">
+				<flow unit="kg_per_s" value="158.09027777777783"></flow>
+				<pressureDifference unit="bar" value="-2.834957145197777"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.996972890041621"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.016792379727704"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_32" from="source_3" to="sink_19">
+				<flow unit="kg_per_s" value="68.226991175470530"></flow>
+				<pressureDifference unit="bar" value="2.362787443370081"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297730"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.081043546779738"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_33" from="sink_19" to="innode_3">
+				<flow unit="kg_per_s" value="61.938307461485024"></flow>
+				<pressureDifference unit="bar" value="0.108110614061047"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.004429782029343"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_34" from="source_3" to="innode_5">
+				<flow unit="kg_per_s" value="89.863286602307241"></flow>
+				<pressureDifference unit="bar" value="0.068609906821990"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297730"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.001376018731149"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_35" from="innode_5" to="sink_27">
+				<flow unit="kg_per_s" value="89.86328660230724"></flow>
+				<pressureDifference unit="bar" value="-0.832329711747548"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297730"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.016600083649596"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_36" from="sink_27" to="sink_19">
+				<flow unit="kg_per_s" value="73.509119935640570"></flow>
+				<pressureDifference unit="bar" value="1.461847824800543"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297730"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.042950516818508"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_37" from="sink_10" to="sink_11">
+				<flow unit="kg_per_s" value="32.708333333333485"></flow>
+				<pressureDifference unit="bar" value="0.065420040958543"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.009278115821244"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_38" from="sink_19" to="sink_10">
+				<flow unit="kg_per_s" value="63.44363698295942"></flow>
+				<pressureDifference unit="bar" value="-2.753739482428500"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.105732331784818"></LAMBDA>
+			</pipe>
+			<pipe id="pipe_39" from="innode_3" to="sink_10">
+				<flow unit="kg_per_s" value="61.938307461485024"></flow>
+				<pressureDifference unit="bar" value="-2.645628868367453"></pressureDifference>
+				<negFlowBinvar value="0"></negFlowBinvar>
+				<posFlowBinvar value="1"></posFlowBinvar>
+				<mixingratioMass unit="mass_percent" value="0.676153417297731"></mixingratioMass>
+				<LAMBDA unit="resistance" value="0.106504374574299"></LAMBDA>
+			</pipe>
+		</pipes>
+	</connections>
+</solution>

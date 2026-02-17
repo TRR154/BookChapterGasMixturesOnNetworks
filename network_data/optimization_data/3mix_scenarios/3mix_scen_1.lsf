@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<solution network="ADM" nomination="2" objective="maximize sum of pressures" value="266.886830" status="optimal" pressureLossModel="algebraic" SCIP-version="9.1.0" mode="optimized" LP-solver="Soplex 7.1.0" date="30.6.2025">
+  <nodes>
+    <sources>
+      <source id="A">
+        <pressure unit="bar" value="70.000000006428664"></pressure>
+        <pressureSquare unit="bar_square" value="4900.000000900012310"></pressureSquare>
+        <flow unit="kg_per_s" value="43.611111111111114"></flow>
+        <mixingratio unit="mass-percent" value="0.749966770182583"></mixingratio>
+      </source>
+      <source id="B">
+        <pressure unit="bar" value="69.419919744427617"></pressure>
+        <pressureSquare unit="bar_square" value="4819.125257322771176"></pressureSquare>
+        <flow unit="kg_per_s" value="43.611111111111114"></flow>
+        <mixingratio unit="mass-percent" value="0.849958311683604"></mixingratio>
+      </source>
+    </sources>
+    <sinks>
+      <sink id="D">
+        <pressure unit="bar" value="59.649113937910606"></pressure>
+        <pressureSquare unit="bar_square" value="3558.016793577840872"></pressureSquare>
+        <flow unit="kg_per_s" value="87.222222222222229"></flow>
+        <mixingratio unit="mass-percent" value="0.799962540933093"></mixingratio>
+      </sink>
+    </sinks>
+    <innodes>
+      <innode id="C">
+        <pressure unit="bar" value="67.817796056821862"></pressure>
+        <pressureSquare unit="bar_square" value="4599.253462004681751"></pressureSquare>
+        <mixingratio unit="mass-percent" value="0.799962540933093"></mixingratio>
+      </innode>
+    </innodes>
+  </nodes>
+  <connections>
+    <pipes>
+      <pipe id="pipe01_A_C" from="A" to="C">
+        <flow unit="kg_per_s" value="43.611111111111114"></flow>
+        <pressureDifference unit="bar" value="2.182203949606802"></pressureDifference>
+        <negFlowBinvar value="0"></negFlowBinvar>
+        <posFlowBinvar value="1"></posFlowBinvar>
+        <mixingratioMass unit="mass_percent" value="0.749966770182583"></mixingratioMass>
+        <LAMBDA unit="resistance" value="0.158127110393261"></LAMBDA>
+      </pipe>
+      <pipe id="pipe02_B_C" from="B" to="C">
+        <flow unit="kg_per_s" value="43.611111111111114"></flow>
+        <pressureDifference unit="bar" value="1.602123687605754"></pressureDifference>
+        <negFlowBinvar value="0"></negFlowBinvar>
+        <posFlowBinvar value="1"></posFlowBinvar>
+        <mixingratioMass unit="mass_percent" value="0.849958311683604"></mixingratioMass>
+        <LAMBDA unit="resistance" value="0.115604627665319"></LAMBDA>
+      </pipe>
+      <pipe id="pipe03_C_D" from="C" to="D">
+        <flow unit="kg_per_s" value="87.222222222222229"></flow>
+        <pressureDifference unit="bar" value="8.168682118911256"></pressureDifference>
+        <negFlowBinvar value="0"></negFlowBinvar>
+        <posFlowBinvar value="1"></posFlowBinvar>
+        <mixingratioMass unit="mass_percent" value="0.799962540933093"></mixingratioMass>
+        <LAMBDA unit="resistance" value="0.136865869029290"></LAMBDA>
+      </pipe>
+    </pipes>
+  </connections>
+</solution>
