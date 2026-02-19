@@ -3,6 +3,8 @@ This repository hosts code for reproducing numerical experiments presented in th
 
 Chapter authors: Pascal Boerner, Jan Giesselmann, Varun M. Kumar, Marc E. Pfetsch, Michael Thiele, Tabea Tscherpel. 
 
+A preprint of the chapter is available [here.](https://opus4.kobv.de/opus4-trr154/frontdoor/index/index/searchtype/all/docId/623/start/0/rows/10)
+
 This README file is organised as follows:
 - Quick start guide
     - Dependencies
