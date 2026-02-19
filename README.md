@@ -1,9 +1,7 @@
 ## Basics
-This repository hosts code for reproducing numerical experiments presented in the book chapter ''Gas Mixtures on Networks: Modeling, Simulation and Optimization'' written as part of the DFG project SFB Transregio 154: Modeling, Simulation and Optimization of Gas Networks. 
+This repository hosts code for reproducing numerical experiments presented in the book chapter ''Gas Mixtures on Networks: Modeling, Simulation and Optimization'' written as part of the DFG project SFB Transregio 154: Modeling, Simulation and Optimization of Gas Networks. A preprint is available [here.](https://opus4.kobv.de/opus4-trr154/frontdoor/index/index/searchtype/all/docId/623/start/0/rows/10)
 
 Chapter authors: Pascal Boerner, Jan Giesselmann, Varun M. Kumar, Marc E. Pfetsch, Michael Thiele, Tabea Tscherpel. 
-
-A preprint of the chapter is available [here.](https://opus4.kobv.de/opus4-trr154/frontdoor/index/index/searchtype/all/docId/623/start/0/rows/10)
 
 This README file is organised as follows:
 - Quick start guide
